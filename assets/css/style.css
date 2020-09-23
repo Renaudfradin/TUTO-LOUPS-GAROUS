@@ -1,0 +1,181 @@
+html{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+p{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 22px;
+    letter-spacing: -0.4px;
+    word-spacing: 0.6px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+a{
+    text-decoration: none;
+}
+main{
+    background: #1f1f2e;
+    margin-top: -1px;
+}
+header{
+    padding: 1% 0% 1% 0%;
+    background: #171721;
+}
+header nav h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+header nav h1:hover{
+    color: red;
+}
+.container{
+    margin: 0% 20% 0% 20%;
+}
+.container article{
+    border-radius: 8%;
+    border: 1px solid white;
+    padding: 25px;
+    margin:2% 0% 2% 0%;
+}
+.container section a {
+    color: white;
+}
+.container section a:hover{
+    color: red;
+}
+.container section h2{
+    color: white;
+    text-transform: uppercase;
+}
+.container section p{
+    margin: 0%;
+}
+.impair{
+    text-align: start;
+}
+.impair img{
+    float: left;
+    width: 100%; 
+    max-width: 350px; 
+    height: auto;
+    margin-right: 20px;
+}
+.pair{
+    text-align: end;
+}
+.pair img{
+    float: right;
+    width: 100%; 
+    max-width: 350px; 
+    height: auto;
+    margin-left: 20px;
+}
+.impair h2,.pair h2{
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0% 5% 0%;
+}
+.footer section{
+    display: block;
+}
+.footer section a{
+    font-size: 2rem;
+    color: white;
+}
+.footer section a:hover{
+    color: red;
+}
+footer{
+    padding: 1% 0% 1% 0%;
+    background: #171721;
+    color: white;
+}
+.sup{
+    display: none;
+}
+.cop{
+    font-size: 2rem;
+}
+@media screen and (max-width:1024px){
+    .container{
+        margin: 0% 13% 0% 13%;
+    }
+}
+@media screen and (max-width:768px){
+    .impair img,.impair h2,.impair p{
+        display: block;
+        float: none;
+        text-align: center;
+        justify-content: center;
+        margin: 0% 0% 0% 0%;
+    }
+    .pair img,.pair h2,.pair p{
+        display: block;
+        float: none;
+        text-align: center;
+    }
+    .impair img,.pair img{
+        max-width: 500px;
+        margin: 0%;
+    }    
+    .container article{
+        border-radius: 4%;
+        border: 1px solid white;
+        padding: 25px;
+        margin:4% 0% 4% 0%;
+    }
+    p{
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 16px;
+        letter-spacing: -0.4px;
+        word-spacing: 0.6px;
+        color: white;
+        font-weight: 400;
+        text-decoration: none solid rgb(68, 68, 68);
+        font-style: normal;
+        font-variant: normal;
+        text-transform: none;
+    }
+    
+
+}
+@media screen and (max-width:587px){
+    .impair img,.impair h2,.impair p{
+        display: block;
+        float: none;
+        text-align: center;
+        justify-content: center;
+        margin: 0% 0% 0% 0%;
+    }
+    .footer section a{
+        font-size: 1rem;
+        color: white;
+    }
+    .cop{
+        font-size: 1rem;
+    }
+    .footer section{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:1400px){
+    .footer{
+        display: block;
+        text-align: center;
+        margin: 5% 0% 5% 0%;
+    }
+}
